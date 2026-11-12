@@ -48,6 +48,7 @@ public class BigDecimal1 {
         System.out.println("BigDecimal is accurate");
         System.out.println("Since BigDecimal is not an integer, it prints 1 as 1.00.");
         System.out.println("If I call BigDecimal with .add() without assigning the result back to the variable, the value of the bigDecimal variable does not change.");
+        System.out.println("-----------------------------------------------");
     }
 
 }
