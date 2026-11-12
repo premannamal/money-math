@@ -2,15 +2,9 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class BigDecimal1 {
-    float floatVariable;
+    /*float floatVariable;
     double doubleVariable;
-    BigDecimal bigDecimalVariable;
-
-    public BigDecimal1() {
-        this.floatVariable = 0.0f;
-        this.doubleVariable = 0.0;
-
-    }
+    BigDecimal bigDecimalVariable;*/
 
     public static void main(String[] args) {
 
@@ -50,6 +44,7 @@ public class BigDecimal1 {
         System.out.println("SUMMARY");
         System.out.println("Float is off 0.184 cents");
         System.out.println("Double is off 0.000000000135 cents");
+        System.out.println("Neither float nor double can represent 0.1 exactly in binary, so money should be Big Decimal");
         System.out.println("BigDecimal is accurate");
         System.out.println("Since BigDecimal is not an integer, it prints 1 as 1.00.");
         System.out.println("If I call BigDecimal with .add() without assigning the result back to the variable, the value of the bigDecimal variable does not change.");
