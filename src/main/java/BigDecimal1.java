@@ -41,7 +41,7 @@ public class BigDecimal1 {
         System.out.println(doubleVariable);
         System.out.println(bigDecimalVariable);
         System.out.println("-----------------------------------------------");
-        System.out.println("SUMMARY");
+        System.out.println("    ***** SUMMARY  *****   ");
         System.out.println("Float is off 0.184 cents");
         System.out.println("Double is off 0.000000000135 cents");
         System.out.println("Neither float nor double can represent 0.1 exactly in binary, so money should be Big Decimal");
